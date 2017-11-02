@@ -9,7 +9,7 @@ class Header extends Component {
         <nav className="nav">
             <div className="nav-menu">
                 <div className = "left nav-item">
-                    tfricks>&nbsp; <span className="blinking-cursor"> |</span>
+                    <Link className="titleText" to="/" >tfricks>&nbsp; <span className="blinking-cursor"> |</span></Link>
                 </div>
                 <div className="right">
                     <Link to="/" className="nav-item"> Home </Link>
