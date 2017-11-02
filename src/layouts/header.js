@@ -8,7 +8,7 @@ class Header extends Component {
     return (
         <nav className="nav">
             <div className="nav-menu">
-                <div className = "left nav-item">
+                <div className = "left">
                     <Link className="titleText" to="/" >tfricks>&nbsp; <span className="blinking-cursor"> |</span></Link>
                 </div>
                 <div className="right">

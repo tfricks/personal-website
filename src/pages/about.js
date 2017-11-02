@@ -7,7 +7,7 @@ class IndexPage extends Component {
     return (
         <div className="about-container">
           <h1 className="center">About Tyler Fricks</h1>
-          <Link to="/page-2">Go to page 2</Link>
+          A short bio will appear here very soon. Stay tuned.
         </div>
     );
   }

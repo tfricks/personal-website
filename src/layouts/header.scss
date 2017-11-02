@@ -68,22 +68,27 @@
     color: inherit;
     text-decoration: none;
   }
-  a:hover {
-    background-color : #4B0082;
-  }
   .right {
     display:flex;
     flex-direction: row;
   }
   .left {
     font-weight: bold;
+    align-items: center;
+    display: flex;
   }
   .nav-item {
     align-items: center;
     display: flex;
     padding: 1.5rem 1.2rem;
+    .a:hover {
+      background-color : #4B0082;
+    }
   }
-}
-.titleText:hover {
-  background-color: none;
+  .nav-item:hover {
+    background-color : #4B0082;
+  }
+  .titleText {
+    padding: 1.5rem 1.2rem;
+  }
 }
